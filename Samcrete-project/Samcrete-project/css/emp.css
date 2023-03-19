@@ -1,0 +1,51 @@
+﻿
+.cont-emp {
+    width: 1160px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row-emp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 75px 50px;
+}
+
+.card-emp {
+    flex: 1 1 21rem;
+    display: flex;
+    margin: 20px 25px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 40px 20px;
+    align-self: normal;
+}
+.text-emp {
+    text-align: center;
+    padding-top: 20px;
+    width: 63%;
+    line-height: 1.5;
+    margin: auto;
+}
+}
+
+.card-emp h6 {
+        font-size: 1.3rem;
+        margin: 15px 0;
+}
+
+.card-emp p {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.card-emp svg {
+    padding: 10px;
+    color: var(--pryColor);
+    font-size: 50px;
+}

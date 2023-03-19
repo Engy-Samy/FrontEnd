@@ -1,0 +1,69 @@
+﻿:root {
+    --pryColor: #4d8552;
+}
+.vac-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.text-vac {
+    padding: 50px;
+}
+.text-vac p{
+    font-size: 15px;
+    color: grey;
+    margin-top: 30px;
+}
+.text-vac .btn-vac {
+            color: green;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 6px 20px;
+            border: none;
+            background: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 50px;
+            border-radius: 7px;
+}
+.cont {
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row-vac{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-vac{
+    flex: 1 1 8rem;
+    display: flex;
+    margin: 10px 9px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    align-self: normal;
+}
+.card-vac h6{
+    font-size: 1rem;
+    margin: 50px 0;
+
+}
+.card-vac p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.card-vac svg {
+    padding: 10px;
+    color: var(--pryColor);
+    font-size: 50px;
+}

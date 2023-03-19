@@ -1,0 +1,57 @@
+﻿.qual-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 60px 60px;
+    background: white
+}
+.qual-section .qual-img {
+        width: 40%;
+}
+.qual-img img {
+        width: 100%;
+}
+.qual-section.right {
+    width: 55%;
+}
+.nav-btn {
+    overflow: hidden;
+    background-color: white;
+}
+.nav-btn a {
+        float: left;
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+}
+.nav-btn a:hover {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        transition: 0.5s;
+
+}
+.right .nav-btn .active {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.right {
+    padding: 0 160px;
+}
+.nohover {
+    pointer-events: none;
+}
+.qual-section .qual-text p{
+    font-size: 14px;
+    color: grey;
+}
+.qual-section .qual-text .q-t {
+    line-height: 3;
+    margin-top: 45px;
+}

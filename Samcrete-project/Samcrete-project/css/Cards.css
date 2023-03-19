@@ -1,0 +1,48 @@
+﻿
+:root {
+    --pryColor: #4d8552;
+}
+p{
+    font-size:16px;
+    color: grey;
+}
+.contain {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -50px;
+    position: relative;
+}
+
+.card {
+    flex: 1 1 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px 20px;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    padding: 10px 0;
+    align-self: normal;
+    border: 1px solid var(--pryColor);
+    border-top: 6px solid var(--pryColor);
+    text-align: center;
+}
+
+.card h3{
+    font-size: 1.3rem;
+}
+    .card p {
+        margin-bottom: 65px
+    }
+    .card svg {
+        padding: 10px;
+        color: var(--pryColor);
+        font-size: 50px;
+    }

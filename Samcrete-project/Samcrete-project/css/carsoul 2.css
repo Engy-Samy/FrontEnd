@@ -1,0 +1,83 @@
+﻿body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+.slide {
+    margin-bottom: 160px;
+    margin-top: 50px;
+}
+.mySlides {
+    display: none;
+}
+
+.slideshow-container img {
+    vertical-align: middle;
+    width: 33%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 4px 6px;
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: 2px solid green;
+    border-radius: 100% !important;
+    margin: 9px;
+}
+.arrowParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    -webkit-box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}

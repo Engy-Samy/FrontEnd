@@ -1,0 +1,41 @@
+﻿.big-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #89ab89;
+    height: 400px;
+    margin-bottom: 300px;
+}
+
+    .big-contain .fimg {
+        width: 50%;
+    }
+
+.fdiv img.f-img {
+    margin: 6px 240px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 500px;
+    border-radius: 15px
+}
+
+.sdiv {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+    .sdiv img {
+        width: 35%;
+        height: 116px;
+        margin: 8px;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 6px 180px;
+    }
+
+    .sdiv .f-img {
+        width: 70%;
+    }

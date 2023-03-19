@@ -1,0 +1,132 @@
+﻿.message-foot {
+    position: absolute;
+    /*top: 375px;*/
+    right: 430px;
+    width: 865px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    background-color: darkgreen;
+    padding: 0px 40px;
+    margin-top: -50px;
+}
+    .message-foot h2{
+        color: white;
+    }
+
+    .message-foot .btn-apply {
+        padding: 15px;
+        color: black;
+        margin: 5px 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+footer {
+    bottom: 0px;
+    width: 100%;
+    background: #363636;
+}
+
+.mainn-content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+    .mainn-content .box {
+        flex-basis: 50%;
+        padding: 10px 20px;
+        margin-top: 40px;
+    }
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box h2.cen {
+        padding: 0 40px;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content .phone {
+    margin-bottom: 10px;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+        padding: 0 2px;
+}
+
+.left .content .social a i {
+            height: 40px;
+            width: 40px;
+            background: #1a1a1a;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+}
+    .left .content .social svg {
+        color: #d9d9d9;
+    }
+
+    .left .content .img-foot {
+        margin: 20px 0 0 0;
+    }
+
+.left .content .img-foot img {
+        width: 45%;
+}
+
+.center .content p {
+    margin-bottom: 30px;
+    color: rgb(235 232 232 / 70%);
+}
+
+.center .content a {
+    text-decoration: none;
+}
+
+.center .content .actv {
+    color: #84cd87;
+}
+
+.center .content .btn {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 60px;
+    border: none;
+    background: green;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+.center .content .cp-text {
+    color: rgb(235 232 232 / 70%);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    padding: 10px 30px;
+}
+
+td {
+    padding: 5px;
+    color: rgb(235 232 232 / 70%);
+}
